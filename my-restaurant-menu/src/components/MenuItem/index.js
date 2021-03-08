@@ -1,5 +1,5 @@
 import React from "react"
-import Cart from "../Menu/itemcart"
+import Cart from "../Menu/itemcart.js"
 
 
 
@@ -19,7 +19,7 @@ export default class MenuItem extends React.Component {
         function handleClick(){
             alert("You added an item to your cart!");
             document.getElementById("shoppingcart").style.display = "block";
-            document.getElementById("info").innerHTML = "<p>1 X Jerk Chicken = 12.00</p><br></br>"
+            document.getElementById("happy").style.display = "block";
 
         }
         function handleClick2(){
@@ -31,7 +31,8 @@ export default class MenuItem extends React.Component {
             <div class="menu-item" id={this.props.itemId}>
                 <div style={{ display: "none"}} id="shoppingcart">
                     <Cart></Cart>
-                    <button onClick={handleClick2}>Close</button>
+                    <p style={{ display: "none"}} id="happy">You added something to your cart.</p>
+                    <button id="cartmenu" onClick={handleClick2}>Close</button>
                     <div id="info"></div>
                 </div>
                 <br></br>
