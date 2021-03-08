@@ -1,6 +1,6 @@
 import React from "react"
 import MenuItem from "../MenuItem"
-import MenuPictures from "../MenuStyles"
+import Cart from "../Menu/itemcart"
 
 
 export default class Menu extends React.Component {

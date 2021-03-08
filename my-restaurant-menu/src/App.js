@@ -1,5 +1,8 @@
 import "./App.css"
 import Menu from "../src/components/Menu"
+import MenuPics from "./components/MenuStyles/index2.js"
+import MenuPictures from "./components/MenuStyles"
+
 function App() {
   let data = [
     {
@@ -8,29 +11,33 @@ function App() {
         {
           itemId: 1,
           itemPrice: "12",
-          itemName: "Lasagne",
+          itemName: "Jerk Chicken",
           itemDescription:
-            ["Meat and cheese layered between house-made pasta with bell peppers and onions."]
+            ["Chicken with peas and rice, and scotch bonnet cabbage."],
+          itemPicture: <MenuPics />,
         },
         {
           itemId: 2,
           itemPrice: "10",
           itemName: "Cheese Ravioli",
-          itemDescription: ["Cheese-filled ravioli served with house red sauce."]
+          itemDescription: ["Cheese-filled ravioli served with house red sauce."],
+          itemPicture: ""
         },
         {
           itemId: 3,
           itemPrice: "14",
           itemName: "Chicken Parmesan",
           itemDescription:
-            ["Breaded chicken topped with marinara sauce and lots of cheese served over house made spaghetti."]
+            ["Breaded chicken topped with marinara sauce and lots of cheese served over house made spaghetti."],
+          itemPicture: ""
         },
         {
           itemId: 4,
           itemPrice: "11",
           itemName: "Shrimp n Grits",
           itemDescription:
-            ["Sauteed shrimp, on a bed of creamy grits."]
+            ["Sauteed shrimp, on a bed of creamy grits."],
+          itemPicture: <MenuPictures />
         },
       ],
     },

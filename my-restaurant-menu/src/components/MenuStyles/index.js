@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import shrimpngrits from "../images"
+import shrimp from "../images/shrimp.jpeg"
 
 class MenuPictures extends React.Component {
  render (){
-     return <img src={shrimpngrits}></img>
+     return <img style={{ height: 250 }} src={shrimp} />
  }
 }
 export default MenuPictures;
