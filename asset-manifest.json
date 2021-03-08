@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio-1/static/css/main.b983de26.chunk.css",
+    "main.js": "/Portfolio-1/static/js/main.7e0480ad.chunk.js",
+    "main.js.map": "/Portfolio-1/static/js/main.7e0480ad.chunk.js.map",
+    "runtime-main.js": "/Portfolio-1/static/js/runtime-main.196e0eb1.js",
+    "runtime-main.js.map": "/Portfolio-1/static/js/runtime-main.196e0eb1.js.map",
+    "static/js/2.d37ae1f0.chunk.js": "/Portfolio-1/static/js/2.d37ae1f0.chunk.js",
+    "static/js/2.d37ae1f0.chunk.js.map": "/Portfolio-1/static/js/2.d37ae1f0.chunk.js.map",
+    "static/js/3.dfdebe15.chunk.js": "/Portfolio-1/static/js/3.dfdebe15.chunk.js",
+    "static/js/3.dfdebe15.chunk.js.map": "/Portfolio-1/static/js/3.dfdebe15.chunk.js.map",
+    "index.html": "/Portfolio-1/index.html",
+    "static/css/main.b983de26.chunk.css.map": "/Portfolio-1/static/css/main.b983de26.chunk.css.map",
+    "static/js/2.d37ae1f0.chunk.js.LICENSE.txt": "/Portfolio-1/static/js/2.d37ae1f0.chunk.js.LICENSE.txt",
+    "static/media/jerk.dcb633eb.jpg": "/Portfolio-1/static/media/jerk.dcb633eb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.196e0eb1.js",
+    "static/js/2.d37ae1f0.chunk.js",
+    "static/css/main.b983de26.chunk.css",
+    "static/js/main.7e0480ad.chunk.js"
+  ]
+}
